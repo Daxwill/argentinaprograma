@@ -1,0 +1,13 @@
+1)	
+	a) La respuesta es 8
+	b) La respuesta es 204
+2)
+	a)La respuesta es 15
+	b)La respuesta es 66.25
+3)
+	a)La respuesta es 10 C°
+	b)La respuesta es 23.8889 C°
+4)
+	a)La respuesta es 7
+	b)La respuesta es -4.333
+	c)La respuesta es 0.2666
