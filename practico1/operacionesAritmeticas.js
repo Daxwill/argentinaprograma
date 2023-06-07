@@ -7,6 +7,5 @@ let resultadoResta = n4 - n3;
 let resultadoFinal = resultadoSuma * resultadoResta;
 let esPar = (resultadoFinal % 2) == 0;
 
-console.log("Mis variables iniciales fueron: " + n1 + ", " + n2 + ", " + n3 + " y " + n4 + ". La respuesta a verificar si el resultado final es par es: " + esPar)
+console.log("Mis variables iniciales fueron: %i, %i, %i y %i. La respuesta a verificar si el resultado final es par es: " + esPar, n1, n2, n3, n4,)
 
-// consultar esPar debe ser resultado numerico o un boolean...?
