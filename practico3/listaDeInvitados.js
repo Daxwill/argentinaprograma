@@ -9,10 +9,25 @@ for (let i = 0; i < personas.length; i++) {
         admitidos = admitidos.concat(personas[i]);
     }
 }
+
 for (let i = 0; i < admitidos.length; i++) {
     console.log("La lista de invitados admitidos es: " + admitidos[i]);
 }
 
 for (let i = 0; i < rechazados.length; i++) {
     console.log("La lista de invitados rechazados es: " + rechazados[i]);
+}
+
+
+// Consigna EXTRA
+
+rechazados.sort();
+admitidos.sort();
+
+for (let i = 0; i < admitidos.length; i++) {
+    console.log("La lista ordenada de invitados admitidos es: " + admitidos[i]);
+}
+
+for (let i = 0; i < rechazados.length; i++) {
+    console.log("La lista ordenada de invitados rechazados es: " + rechazados[i]);
 }
