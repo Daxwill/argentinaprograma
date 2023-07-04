@@ -11,7 +11,8 @@ function obtenerJugadaUsuario() {
     if (jugada == arrayJugadas[0] || jugada == arrayJugadas[1] || jugada == arrayJugadas[2]) {
         return jugada;
     } else {
-        return console.log("Su jugada no esta definida");
+        console.log("Su jugada no esta definida");
+        return obtenerJugadaUsuario();
     }
 }
 
